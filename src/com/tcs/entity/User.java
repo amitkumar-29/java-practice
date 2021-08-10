@@ -11,6 +11,7 @@ private byte age;
 //	this.mobileNumber = mobileNumber;
 //	this.age = age;
 //}
+private ROLE role;
 public void workout() {
 	System.out.println(name +"is working out");
 }
