@@ -1,6 +1,4 @@
-package com.tcs.statickeyword;
-
-import com.tcs.uncheckedexceptiondemo.MyUncheckedException;
+package com.tcs.uncheckedexceptiondemo;
 
 public class UncheckedExceptionDemo {
 public static void main(String[] args) {
