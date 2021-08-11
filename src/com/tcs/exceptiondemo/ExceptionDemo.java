@@ -2,7 +2,7 @@ package com.tcs.exceptiondemo;
 
 public class ExceptionDemo {
 public static void main(String args[]) throws MyCheckedException {
-	demo1();
+//	demo1();
 	demo2();
 }
 private static void demo1() {
@@ -16,5 +16,6 @@ private static void demo1() {
 }
 private static void demo2() throws MyCheckedException {
 	throw new MyCheckedException();
+	
 }
 }
