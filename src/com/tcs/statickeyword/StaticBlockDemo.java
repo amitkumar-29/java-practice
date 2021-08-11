@@ -6,9 +6,12 @@ public StaticBlockDemo() {
 }
 static {
 	System.out.println("Static Block");
+	String b="amit";
+	System.out.println(b.getClass().getName());
 }
 public static void main(String args[]) {
-	StaticBlockDemo demo=new StaticBlockDemo();
-	new StaticBlockDemo();
+//	StaticBlockDemo demo=new StaticBlockDemo();
+//	new StaticBlockDemo();
+//	
 }
 }
